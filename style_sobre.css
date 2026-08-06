@@ -26,7 +26,6 @@ header{
     justify-content: space-between;
     height: 96px;
     border-bottom: 1px solid var(--cor-destaques);
-    
 }
 
 .link{
@@ -44,8 +43,46 @@ header{
     color: var(--cor-destaques);
     font-weight:bolder; 
 }
-footer{
+
+h1{
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.div-sobre{
+    height: 250px;
+    width: 100%;
+    background-color: var(--cor-de-fundo-secundario); 
+    border: 1px solid var(--cor-secundaria);     
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 800px;         
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+.text-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--cor-de-texto);
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
 }
