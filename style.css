@@ -37,6 +37,7 @@ header{
 
 .link:hover{
     color: var(--cor-destaques);
+    text-decoration: underline;
 }
 
 .nome{
