@@ -45,6 +45,28 @@ header{
     color: var(--cor-destaques);
     font-weight:bolder; 
 }
+section{
+    min-height: 100dvh;
+    background-color: var(--cor-de-fundo-secundario);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.butao-primario{
+    padding: 12px 16px;
+    color: var(--cor-de-texto);
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    background-color: var(--cor-de-fundo);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.butao-primario:hover{
+   background-color: var(--cor-de-fundo-secundario);
+}
+
 footer{
     display: flex;
     align-items: center;
